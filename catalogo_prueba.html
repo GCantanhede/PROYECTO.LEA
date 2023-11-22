@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Edu Nievas">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo-BD.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Black Diamond</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./inicio.html"><img id="tamano-logo" alt="Logo BD" src="./img/logo-BD-texto.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="catalogo_prueba.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Plataformas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="">PC</a></li>
+                            <li><a class="dropdown-item" href="">PlayStation</a></li>
+                            <li><a class="dropdown-item" href="">Xbox</a></li>
+                            <li><a class="dropdown-item" href="">Switch</a></li>
+                            <!--<li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario-contactos.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><img id="lupa-busqueda" alt="Lupa Busqueda" src="./img/lupa.png"></button>
+                    <a class="carrito-boton" href="carrito.html"><img class="carro-imagen" alt="Carrito compra" src="./img/carrito-negro.png"></a>
+                    <a class="inicio-sesion" href="formulario-login.html">Iniciar Sesión</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <!--<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://gaming-cdn.com/img/products/6842/hcover/1920x620/6842.jpg?v=1696933764" class="bd-placeholder-img" width="100%" height="100%">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Juegos más vendidos</h1>
+                        <p class="boton-vermas"><a class="btn btn-lg btn-primary" href="#">Ver Más</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://gaming-cdn.com/img/products/12715/hcover/1920x620/12715.jpg?v=1697010471" class="bd-placeholder-img" width="100%" height="100%">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Juegos mejor valorados</h1>
+                        <p class="boton-vermas"><a class="btn btn-lg btn-primary" href="#">Ver más</a></p>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="texto-carousel">Juegos nuevos</h1>
+                        <p><a class="btn btn-lg btn-primary" href="#">Ver más</a></p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <div class="separador"></div>
+
+
+    <div class="todos-productos">
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+        <div class="productos"><a class="productos-enlaces" href="">
+            <div class="porcentaje-descuento">20% dto.</div>
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p>Descripción producto de prueba</p>
+            <p class="precio">52,99€</p>
+            <p class="precio-anterior">64,99€</p>
+        </a>
+            <div class="centrar-sumarproducto-descuento">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="filtros">
+        <h4 id="recomendados"> Recomendados: </h4>
+        <p> <a class="enlaces-limpios" href="#">Multijugador</a> <br>
+            <a class="enlaces-limpios" href="#">Mejor valorados</a> <br>
+            <a class="enlaces-limpios" href="#">Nuevos</a> <br>
+        </p>
+
+        <h4 id="explorar"> Explorar por género: </h4>
+        <p> <a class="enlaces-limpios" href="#">Free to play</a> <br>
+            <a class="enlaces-limpios" href="#"> Acceso anticipado </a> <br>
+            <a class="enlaces-limpios" href="#"> Acción </a> <br>
+            <a class="enlaces-limpios" href="#"> Aventura </a> <br>
+            <a class="enlaces-limpios" href="#"> Casuales </a> <br>
+            <a class="enlaces-limpios" href="#"> Carreras </a> <br>
+            <a class="enlaces-limpios" href="#"> Deportes </a> <br>
+            <a class="enlaces-limpios" href="#"> Estrategia </a> <br>
+            <a class="enlaces-limpios" href="#"> Multijugador </a> <br>
+            <a class="enlaces-limpios" href="#"> Rol </a> <br>
+            <a class="enlaces-limpios" href="#"> Simulación </a> <br>
+            <a class="enlaces-limpios" href="#"> Otros </a> <br>
+        </p>
+    </div>
+    <div class="todos-productos">
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="todos-productos">
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+        <div class="productos"><a class="productos-enlaces" href="">
+            <img alt="Imagen Productos" class="imagen-productos" src="./img/logo-BD.png">
+            <h3>Producto prueba</h3>
+            <p class="descripcion">Descripción producto de prueba</p>
+            <p class="precio">29,99€</p>
+        </a>
+            <div class="centrar-sumarproducto">
+                <button class="restar-producto">-</button>
+                <input class="numero-productos" type="number" max="50">
+                <button class="sumar-producto">+</button>
+            </div>
+        </div>
+    </div>
+    <div class="separador"></div>
+    <div class="separar-inicio"></div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link disabled" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">127</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="./inicio.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <img class="logo-footer" alt="Logo Footer" src="./img/logo-BD.png">
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Black Diamond, S.A.</span>
+        </div>
+        <div class="enlaces-footer">
+            <a class="text-body-secondary faq" href="./faq.html">Preguntas Frecuentes</a>
+            <a class="text-body-secondary faq" href="./condiciones.html">Condiciones</a>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-twitter.png" alt="Twitter"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-instagram.png" alt="Instagram"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img class="iconos" src="./img/signo-de-facebook.png" alt="Facebook"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
